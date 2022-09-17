@@ -1,20 +1,14 @@
+/* Total elements are logged in the console, but you
+have to scroll all the way up to see it */
 
-/* javascript */
+const elements = document.querySelectorAll("div");
+console.log("Total HTML elements used in portrait: " + elements.length);
 
-var bauhaus = `
+document.addEventListener('mousemove', getPos);
 
-Staaatliches Bauhaus (1919-1933)
-
-      ..-""T-..
-    ,'__   |   '.
-   /   N|  |     !
-  :     '  |      :
-  [      __|      ]
-  :      _I       :
-   !   ___I      /
-    '.  N]     ,'
-      "-"!..--"
-
-`;
-
-console.log(bauhaus);
+function getPos() {
+  var x = event.clientX;
+  var y = event.clientY;
+  var coor = "X: " + x + ", Y: " + y;
+  console.log("MOUSE: " + coor);
+}

@@ -8,6 +8,7 @@
   border: 40px solid #EDD6B5;
   position: absolute;
 }
+
 .hair-end {
   top: 200px;
   height: 300px;
@@ -16,6 +17,7 @@
   z-index: -20;
   position: absolute;
 }
+
 .hair {
   background-color: #EDD6B5;
   z-index: 0;
@@ -24,6 +26,7 @@
   width: 430px;
   border-radius: 50%;
 }
+
 .eye {
   top: 110px;
   background-color: #1B5675;
@@ -34,6 +37,7 @@
   border: 12px solid white;
   position: absolute;
 }
+
 .eyebrow {
   background-color: #BC9986;
   width: 68px;
@@ -42,28 +46,34 @@
   top: 90px;
   z-index: -5;
 }
+
 .left {
   left: 70px;
 }
+
 .right {
   right: 70px;
 }
+
 .nose {
   background-color: #DAC6B4;
   position: absolute;
 }
+
 .bridge {
   width: 16px;
   height: 40px;
   top: 190px;
   left: 170px;
 }
+
 .nostril {
   width: 30px;
   height: 12px;
   top: 213px;
   left: 163px;
 }
+
 .lips {
   background-color: #F0B3B3;
   width: 98px;
@@ -74,6 +84,7 @@
   top: 300px;
   border-radius: 50%;
 }
+
 .mouth {
   background-color: #D09D9D;
   width: 98px;
@@ -82,4 +93,8 @@
   z-index: 0;
   left: 130px;
   top: 315px;
+}
+
+h1, p {
+  font-family: Verdana;
 }
